@@ -1,0 +1,50 @@
+.following{
+    background-color: #fff;
+    width: 610px;
+    margin: 0;
+    border: 1px solid #dfdfdf;
+    margin-top: 20px;
+
+    &-list{
+        padding: 20px;
+        display: flex; 
+        justify-content: space-between; 
+
+        li{
+            margin: 0;
+
+            h3{
+                font-size: 14px;
+                font-weight: 300;
+                margin-top: 20px;
+            }
+
+            .follow{
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                margin-top: 10px;
+                cursor: pointer;
+
+                a{
+                    margin: 0;
+                }
+            }
+
+            .btn{
+                margin-top: 20px;
+                width: 135px;
+            }
+        }
+    }
+
+    &-img{
+        width: 130px;
+        height: 70px;
+        margin: 0;
+        border: 1px solid #dfdfdf;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

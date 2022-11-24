@@ -1,0 +1,26 @@
+.top__section{
+    background-color: #fff;
+    border-bottom: 1px solid #dfdfdf;
+    height: 50px;
+
+    &-list{
+        display: flex;
+        gap: 10px;
+
+        li{
+            margin: 0;
+
+            a{
+                color: #000;
+                font-size: 13px;
+                font-weight: 300;
+                padding: 16px 20px;
+                display: block;
+
+                &:hover{
+                    border-bottom: 3px solid #5eb5e6;
+                }
+            }
+        }
+    }
+}

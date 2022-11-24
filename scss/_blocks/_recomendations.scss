@@ -1,0 +1,22 @@
+.recomendations{
+    background-color: #fff;
+    width: 610px;
+    margin: 0;
+    border: 1px solid #dfdfdf;
+    margin-top: 20px;
+
+    &-list{
+        padding: 20px;
+        display: flex;      
+    }
+
+    &-comment{
+        font-weight: 300;
+        font-size: 14px;
+        padding: 20px;
+        width: 180px;
+        border: 1px solid #dfdfdf;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+}

@@ -1,0 +1,106 @@
+header{
+    border-bottom: 1px solid #dfdfdf;
+    background-color: #fff;
+
+    .main-header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 80px;
+
+        h1{
+            margin: 0;
+        }
+
+        form{
+            margin: 0;
+            position: relative;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
+            border-left: 1px solid #dfdfdf;
+            border-right: 1px solid #dfdfdf;
+
+            input{
+                width: 150px;
+                height: 30px;
+                border-radius: 15px;
+                border: 1px solid #dfdfdf;
+                padding: 0 35px 0 10px;
+                outline: none;
+                appearance: none;
+                
+            }
+
+            span{
+                width: 14px;
+                height: 14px;
+                color: #4e4e4e;
+                position: absolute;
+                right: 35px;
+                top: 27px;
+                cursor: pointer;
+            }
+        }
+
+        nav{
+            margin: 0;
+
+            .header-menu{
+                display: flex;
+                gap: 35px;
+
+                a{
+                    color: #000;
+                    font-weight: 300;
+                    font-size: 14px;
+                }
+
+                li{
+                    transition: 0.3s ease;
+
+                    &:hover{
+                        transform: translateY(-3px);
+                    }
+                }
+
+                .orange{
+                    color: #fe6e7c;
+                }
+            }
+        }
+
+        .header-icons{
+            margin: 0;
+            display: flex;
+            gap: 35px;
+            height: 100%;
+            align-items: center;
+            padding: 0 20px;
+            border-left: 1px solid #dfdfdf;
+            border-right: 1px solid #dfdfdf;
+
+            a{
+                display: block;
+                transition: 0.3s ease;
+
+                    &:hover{
+                        transform: translateY(-3px);
+                    }
+            }
+
+            .comment-icon{
+                color: #53d384;
+            }
+
+            .notifications-icon{
+                color: #f1c40f;
+            }
+
+            .person-icon{
+                color: #9b58b6;
+            }
+        }
+    }
+}
